@@ -9,4 +9,6 @@ COPY . .
 
 EXPOSE 5000  
 
+CMD ["python", "db/setup.py"]
+CMD ["python", "db/insert_data.py"]
 CMD ["python", "app.py"]
