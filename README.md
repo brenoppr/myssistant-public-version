@@ -12,5 +12,3 @@ Para executar a aplicação em um container:
 docker build -t myssistant-public . 
 docker run -p 5000:5000 myssistant-public
 ```
-
-Nota: Falta criar versão publica do arquivo original, garantir que os testes estão funcionando e rodar o pylint e o cc
